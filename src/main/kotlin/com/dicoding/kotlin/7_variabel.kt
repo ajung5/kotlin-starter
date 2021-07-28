@@ -10,6 +10,8 @@ fun main(){
     val firstName: String = "Johnny"
     val lastName = "Doe"
 
+    val ttl: String = "Subang"
+
     var namaPertama: String = "Jenny"
     namaPertama = "Smith"
 
