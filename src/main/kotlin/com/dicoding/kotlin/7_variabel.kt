@@ -7,15 +7,16 @@ fun main(){
     // var = mutable (variabel yang bisa diuabah datanya)
     // val = immutable (variabel yang ga bisa diubah datanya)
 
-    val firstName: String = "Johnny"
+    val firstName = "Johnny"
     val lastName = "Doe"
 
-    val ttl: String = "Subang"
+    val ttl = "Subang"
 
-    var namaPertama: String = "Jenny"
+    var namaPertama = "Jenny"
     namaPertama = "Smith"
 
     println(firstName.length)
     println(lastName)
     println(namaPertama)
+    println(ttl)
 }
