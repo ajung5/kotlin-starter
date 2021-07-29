@@ -24,18 +24,19 @@ fun main() {
     }
 
 
+    val nilaiUTS = 67.0
+    val nilaiUAS = 76.0
+    val nilaiEskul = 79.0
+    val hasil: Double = (nilaiUAS + nilaiUTS + nilaiEskul) / 3
 
-
-    /*
-    val nilaiUTS = 77
-    val nilaiUAS = 76
-
-    if (nilaiUAS < nilaiUTS) {
-        println("Naik Kelas")
+    if (hasil >= 75) {
+        println("Nilai A")
+    }else if (hasil >= 65) {
+        println("Nilai B")
     } else {
-        (nilaiUAS > nilaiUTS ){
-            println("Lulus Bersyarat")
-        }
+        println("Coba Lagi")
     }
-    */
+
+    println(hasil)
+
 }
