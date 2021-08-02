@@ -10,16 +10,11 @@ fun main() {
     val isLulusAbsen = nilaiAbsen >= 80
     val isLulusEskul = nilaiEskul >= 75
 
-    val isLulus = isLulusUjian && isLulusAbsen
+    val isLulus = isLulusUjian && !isLulusAbsen
     println(isLulus)
 
 
     val isPass = isLulusAbsen && isLulusEskul && isLulusUjian
-    /*
-    val isPass = (isLulusAbsen && isLulusEskul) && isLulusUjian
-    val isPass = ((isLulusAbsen && isLulusEskul) && isLulusUjian)
-    melakukan perbandingan dari kiri ke kanan
-    */
     println(isPass)
 
     val lampu1 = "Merah"
