@@ -12,6 +12,11 @@ fun main() {
     }
     println("Jumlah perulangan = $total")
 
+    val ukuranArray = names.size -1
+    for (i in 0..ukuranArray) {
+        println("Index $i = ${names.get(i)}")
+    }
+
     // loop range
     var jumlah = 0
     for (nilai in 1..10 step 2){

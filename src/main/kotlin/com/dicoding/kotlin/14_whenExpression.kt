@@ -2,12 +2,15 @@ package com.dicoding.kotlin
 
 fun main() {
 
-    val lampu = "merah"
+    val lampu = "Merah"
 
     when (lampu) {
         "merah" -> println("Berhenti")
         "kuning" -> println("Hati-hati")
         "hijau" -> println("Jalan")
+        else -> {
+            println("Keywword anda salah")
+        }
     }
 
     // multiple option

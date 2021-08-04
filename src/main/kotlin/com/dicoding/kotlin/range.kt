@@ -6,6 +6,7 @@ fun main (){
     val rentangTerbalik = 100 downTo  5
     val rentangStep = 99 downTo  9 step  2
 
+    println(rentang)
     println(rentang.count()) // mendapatkan total data
     println(rentang.contains(46)) // mengecek apakah ada value tersebut
     println(rentang.contains(446)) // mengecek apakah ada value tersebut
