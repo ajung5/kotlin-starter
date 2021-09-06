@@ -1,6 +1,6 @@
 package com.iseng.kotlin
 
-fun main() {
+fun main(args: Array<String>) {
     //halfPyramid()
     //halPyramidAngka()
     halfPyramidHuruf()
