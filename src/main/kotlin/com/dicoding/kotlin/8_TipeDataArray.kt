@@ -7,6 +7,7 @@ package com.dicoding.kotlin
 //    println(totalHarga)
 //}
 
+
 fun main (){
     val mhs: Array<String> = arrayOf("Ajung", "Nawawi", "John", "Doe")
     val mahasiswa = arrayOf<String>("janne", "Doe")
